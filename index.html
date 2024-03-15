@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link href="https://fonts.cdnfonts.com/css/catull" rel="stylesheet">
+</head>
+
+<body style="text-align: center; margin: auto; padding: 7.2% 20%;">
+    <p style="font-size: 100px; font-family: 'Catull', sans-serif;">
+        <span style="color: #3c7ff4;">G</span><span style="color: #eb402c;">o</span><span
+            style="color: #fbc002;">o</span><span style="color: #407cfe;">g</span><span
+            style="color: #2daa4f;">l</span><span style="color: #f33e2d;">e</span>
+    </p>
+    <canvas id="Google SearchBar" width="550" height="40"
+        style="border:1px solid #d6d6d6a2; position: absolute; top: 380px; left: 690px; border-radius: 20px;"></canvas>
+
+    <canvas id="Google Search" width="130" height="33"
+        style="border:1px solid #f7f5f5e0; background-color: #f7f5f5e0; position: absolute; top: 450px; left: 827px; border-radius: 2px;">
+        <script>
+            var c = document.getElementById("Google Search");
+            var ctx = c.getContext("2d");
+            ctx.font = "14px Arial";
+            ctx.fillStyle = "#3a3a3ae0";
+            ctx.fillText("Google Search", 18, 22);
+        </script>
+    </canvas>
+
+    <canvas id="I'm Feeling Lucky" width="130" height="33"
+        style="border:1px solid #f7f5f5e0; background-color: #f7f5f5e0; position: absolute; top: 450px; left: 967px; border-radius: 2px;">
+        <script>
+            var c = document.getElementById("I'm Feeling Lucky");
+            var ctx = c.getContext("2d");
+            ctx.font = "14px Arial";
+            ctx.fillStyle = "#3a3a3ae0";
+            ctx.fillText("I'm Feeling Lucky", 12, 22);
+        </script>
+    </canvas>
+
+    <canvas id="Bottom Bar" width="1920" height="45" style="background-color: #ececece0; position: absolute; left: 0px; bottom: 0px; border-top: 1px solid #dbdbdbe0;">
+    </canvas>
+
+    <canvas id="Bottom Bar 2" width="1920" height="45" style="background-color: #ececece0; position: absolute; left: 0px; bottom: 46px;">
+    </canvas>
+
+    <canvas id="Entrar" width="105" height="38" style="background-color: #1a73e8; position: absolute; right: 17px; top: 15px; border-radius: 3px;">
+        <script>
+            var c = document.getElementById("Entrar");
+            var ctx = c.getContext("2d");
+            ctx.font = "15.5px Arial";
+            ctx.fillStyle = "white";
+            ctx.fillText("Sign In", 28, 24);
+        </script>
+    </canvas>
+</body>
+
+</html>
